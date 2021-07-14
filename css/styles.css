@@ -1,0 +1,76 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+/* global styles */
+h1, h2, h3, h4, h5{
+    line-height: 1.5;
+    font-weight: 300;
+    margin: 0.5em 0;
+}
+h1{
+    font-size: 2.5em;
+}
+h3{
+    font-size: 1.5em;
+}
+h4{
+    font-size: 1.2em;
+}
+a{
+    text-decoration: none; 
+}
+p, label, strong{
+    line-height: 2;
+    font-size: 0.85em;
+    font-weight: 300;
+}
+.flex{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    justify-content: space-between;
+}
+.badge{
+    padding: 9px 20px;
+    color: rgb(196, 125, 125);
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    font-size: 0.75em;
+}
+.badge, .new{
+    background-color: red;
+}
+.badge, .strategy{
+    background-color: rgb(17, 182, 132);
+}
+.badge, .racing{
+    background-color: yellow;
+}
+.badge, .rpg, .badge, .adventure{
+    background-color:rgb(196, 125, 125);
+}
+.badge, .tournaments{
+    background-color: black;
+}
+.badge.premium-tournaments{
+    background-color: yellowgreen;
+}
+.badge.premium-tournaments{
+    background-color: yellowgreen;
+    color: grey;
+}
+.shade{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    top: 0;left: 0;
+    background-color: rgba(0, 0, 0, 0.696);
+}
+/* end global styles */
+
+/* header styles */
